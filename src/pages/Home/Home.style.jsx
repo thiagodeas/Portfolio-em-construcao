@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+import { FaReact } from "react-icons/fa";
 
 export const HomeInit = styled.section`
     width: 100%;
@@ -50,4 +51,41 @@ export const ButtonLink = styled(Link)`
         background-color: #04D939;
     }
 
+`
+
+export const ContainerIllustration = styled.figure`
+    display: flex;
+    flex-direction: column-reverse;
+`
+
+export const Illustration = styled.img`
+    height: 400px;
+    width: 400px;
+`
+
+const rotate = keyframes`
+    0% {
+        transform: translateY(0px);
+        color: #03A63C;
+    } 
+    25% {
+        transform: translateY(-15px);
+    } 
+    50% {
+        transform: translateY(0px);
+        color: #04D939;
+    } 
+    75% {
+        transform: translateY(15px);
+    } 
+    100% {
+        transform: translateY(0px);
+        color: #03A63C;
+    }
+`
+
+export const StyledReactIcon = styled(FaReact)`
+    color: #04D939;
+    font-size: 4rem;
+    animation: ${rotate} 20s linear infinite;
 `

@@ -22,11 +22,17 @@ export const StyledHeader = styled.header `
 `
 
 export const StyledLink = styled(Link) `
+    text-decoration: none;
     color: #fff;
     padding-right: 2rem;
     letter-spacing: 1px;
 
     &:hover {
         color: #04D939;
+    }
+
+    :active {
+        color: #04D939;
+        font-weight: 800; 
     }
 `

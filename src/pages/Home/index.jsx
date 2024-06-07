@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { ButtonLink, HomeInit, Presentation } from "./Home.style";
+import { ButtonLink, ContainerIllustration, HomeInit, Illustration, Presentation, StyledReactIcon } from "./Home.style";
 
 const Home = () => {
   return (
@@ -12,6 +11,10 @@ const Home = () => {
             </p>
             <ButtonLink to="/aboutme">Saiba mais sobre mim</ButtonLink>
         </Presentation>
+        <ContainerIllustration>
+        <Illustration src="/developer.svg" alt="Developer Illustration"/>
+        <StyledReactIcon />
+        </ContainerIllustration>
     </HomeInit>
   )
 }
