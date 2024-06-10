@@ -66,7 +66,7 @@ export const Illustration = styled.img`
     width: 400px;
 `
 
-const rotate = keyframes`
+const levitating = keyframes`
     0% {
         transform: translateY(0px);
     } 
@@ -91,29 +91,29 @@ export const ContainerIcons = styled.div `
 
 export const StyledReactIcon = styled(FaReact)`
     font-size: 3.5rem;
-    animation: ${rotate} 20s linear infinite;
+    animation: ${levitating} 20s linear infinite;
     color: #56d4f4;
 `
 
 export const StyledJSIcon = styled(IoLogoJavascript)`
     background-color: yellow;
     font-size: 2.8rem;
-    animation: ${rotate} 20s linear infinite;
+    animation: ${levitating} 20s linear infinite;
 `
 
 export const StyledCSSIcon = styled (MdCss)`
     font-size: 3.5rem;
-    animation: ${rotate} 20s linear infinite;
+    animation: ${levitating} 20s linear infinite;
     color: #206dcc;
 `
 
 export const StyledHTMLIcon = styled (MdHtml)`
     font-size: 3.5rem;
-    animation: ${rotate} 20s linear infinite;
+    animation: ${levitating} 20s linear infinite;
     color: #eb6630;
 `
 export const StyledTSIcon = styled (SiTypescript)`
     color: #347bc8;
     font-size: 2.8rem;
-    animation: ${rotate} 20s linear infinite;   
+    animation: ${levitating} 20s linear infinite;   
 `

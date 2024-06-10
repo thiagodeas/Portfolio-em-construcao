@@ -1,6 +1,4 @@
-import { IoLogoJavascript } from "react-icons/io";
 import { ButtonLink, ContainerIcons, ContainerIllustration, HomeInit, Illustration, Presentation, StyledCSSIcon, StyledHTMLIcon, StyledJSIcon, StyledReactIcon, StyledTSIcon } from "./Home.style";
-import { MdCss } from "react-icons/md";
 
 const Home = () => {
   return (
