@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { MdCss, MdHtml } from "react-icons/md";
+import { SiTypescript } from "react-icons/si";
 
 export const HomeInit = styled.section`
     width: 100%;
@@ -17,20 +20,20 @@ export const Presentation = styled.div`
     p {
         font-size: 2.6rem;
         font-weight: 600;
-        color: #012340;
+        color:   #253659;
         margin: 0px 0px 2rem 4rem;
     }
 
     span {
         font-size: 3.8rem;
         font-weight: 600;
-        color: #04D939;
+        color: #F27457;
     }
 `
 
 export const ButtonLink = styled(Link)`
     border: none;
-    background-color: #03A63C;
+    background-color:  #F27457;
     color: #fff;
     font-size: 1.125rem;
     font-weight: 800;
@@ -40,7 +43,7 @@ export const ButtonLink = styled(Link)`
     border-radius: 8px;
     padding: 0px 12px;
     cursor: pointer;
-    transition: 900ms;
+    transition: 800ms;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +51,7 @@ export const ButtonLink = styled(Link)`
     margin-left: 4rem;
 
     &:hover {
-        background-color: #04D939;
+        background-color: #BF665E;
     }
 
 `
@@ -66,26 +69,51 @@ export const Illustration = styled.img`
 const rotate = keyframes`
     0% {
         transform: translateY(0px);
-        color: #03A63C;
     } 
     25% {
         transform: translateY(-15px);
     } 
     50% {
         transform: translateY(0px);
-        color: #04D939;
     } 
     75% {
         transform: translateY(15px);
     } 
     100% {
         transform: translateY(0px);
-        color: #03A63C;
     }
 `
 
+export const ContainerIcons = styled.div `
+    display: flex;
+    gap: 20px;
+`
+
 export const StyledReactIcon = styled(FaReact)`
-    color: #04D939;
-    font-size: 4rem;
+    font-size: 3.5rem;
     animation: ${rotate} 20s linear infinite;
+    color: #56d4f4;
+`
+
+export const StyledJSIcon = styled(IoLogoJavascript)`
+    background-color: yellow;
+    font-size: 2.8rem;
+    animation: ${rotate} 20s linear infinite;
+`
+
+export const StyledCSSIcon = styled (MdCss)`
+    font-size: 3.5rem;
+    animation: ${rotate} 20s linear infinite;
+    color: #206dcc;
+`
+
+export const StyledHTMLIcon = styled (MdHtml)`
+    font-size: 3.5rem;
+    animation: ${rotate} 20s linear infinite;
+    color: #eb6630;
+`
+export const StyledTSIcon = styled (SiTypescript)`
+    color: #347bc8;
+    font-size: 2.8rem;
+    animation: ${rotate} 20s linear infinite;   
 `
