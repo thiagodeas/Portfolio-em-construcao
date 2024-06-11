@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const StyledHeader = styled.header `
     width: 100%;
@@ -22,20 +22,19 @@ export const StyledHeader = styled.header `
     }
 `
 
-export const StyledLink = styled(Link) `
+export const StyledLink = styled(NavLink) `
     text-decoration: none;
     color: #fff;
     padding-right: 2rem;
     transition: 400ms;
-    font-weight: 600;
     letter-spacing: 1px;
 
     &:hover {
         color:  #F27457;
     }
 
-    :active {
-        color: #415A77;
+    &.active {
+        color: #F27457;
         font-weight: 800; 
     }
 `
