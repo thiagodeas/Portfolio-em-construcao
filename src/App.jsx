@@ -1,12 +1,12 @@
-// React Router
+// react Router
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Components
+// components
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Container from './components/Container';
 
-// Pages
+// pages
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -16,17 +16,26 @@ import Page404 from './pages/Page 404';
 function App() {
   return (
     <>
+      {/* iniciando o uso do react-router-dom */}
       <BrowserRouter>
+        {/* cabeçalho estilizado */}
         <Header />
+        {/* container estilizado */}
         <Container>
           <Routes>
+            {/* rota para a página Home */}
             <Route path="/" element={<Home />}></Route>
+            {/* rota para a página About */}
             <Route path="/aboutme" element={<About />}></Route>
+            {/* rota para a página de Projects*/}
             <Route path="/projects" element={<Projects />}></Route>
+            {/* rota para a página de Contact */}
             <Route path="/contact" element={<Contact />}></Route>
+            {/*rota para a página 404*/}
             <Route path="/*" element={<Page404 />}></Route>
           </Routes>
         </Container>
+        {/* rodapé estilizado */}
         <Footer />
       </BrowserRouter>
     </>
