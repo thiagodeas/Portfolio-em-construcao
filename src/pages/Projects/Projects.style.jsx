@@ -4,7 +4,8 @@ export const ProjectsContainer = styled.section`
     h2 {
         font-size: 2.2rem;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
+        color: #0a0a0a;
     }
 `
 

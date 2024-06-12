@@ -42,7 +42,7 @@ const Home = () => {
           {/* ícone do TypeScript */}
           <StyledTSIcon />
           {/* ícone do CSS */}
-          <StyledCSSIcon/>
+          <StyledCSSIcon />
           {/* ícone do HTML */}
           <StyledHTMLIcon />
         </ContainerIcons>

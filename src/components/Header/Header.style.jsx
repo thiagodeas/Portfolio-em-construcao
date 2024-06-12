@@ -11,10 +11,10 @@ export const StyledHeader = styled.header `
     align-items: center;
     
     span {
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 1.7rem;
+        font-weight: 800;
         letter-spacing: 3px;
-        transition: 400ms;
+        transition: 500ms;
 
         &:hover {
             color: #F27457;
@@ -26,8 +26,8 @@ export const StyledLink = styled(NavLink) `
     text-decoration: none;
     color: #fff;
     padding-right: 2rem;
-    transition: 400ms;
-    letter-spacing: 1px;
+    transition: 500ms;
+    font-size: 1.05rem;
 
     &:hover {
         color:  #F27457;
@@ -35,6 +35,5 @@ export const StyledLink = styled(NavLink) `
 
     &.active {
         color: #F27457;
-        font-weight: 800; 
     }
 `
