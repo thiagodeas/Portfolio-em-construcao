@@ -29,7 +29,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias, nov
 
 ## Contato
 
-Portfólio: https://portfolio-em-construcao-two.vercel.app/
-LinkedIn: https://www.linkedin.com/in/thiagodsousa/
-Email: sousaalvesth@gmail.com
-Telefone: (85)98698-8198
+- Portfólio: https://portfolio-em-construcao-two.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/thiagodsousa/
+- Email: sousaalvesth@gmail.com
+- Telefone: (85)98698-8198
