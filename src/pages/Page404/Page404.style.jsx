@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ErrorMessage = styled.h2 `
-    color: #012340;
+    color: #253659;
     padding-top: 5rem;
 `
 
@@ -14,12 +14,12 @@ export const ErrorContainer = styled.div `
     span {
         font-size: 15rem;
         font-weight: 800;
-        color: #027333;
+        color: #F27457;
     }
 
     p {
         font-size: 1.2rem;
         font-weight: 600;
-        color: #012340;
+        color: #253659;
     }
 `

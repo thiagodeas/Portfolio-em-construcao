@@ -4,7 +4,6 @@ import profile from "./images/profile.jpg"
 
 const About = () => {
   return (
-    <>
     <ContainerAboutMe>
       <Profile>
         <img src={profile}></img>
@@ -28,7 +27,6 @@ const About = () => {
         </p>
         </Description>
       </ContainerAboutMe>
-    </>
   )
 }
 

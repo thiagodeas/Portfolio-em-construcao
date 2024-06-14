@@ -26,6 +26,7 @@ export const ContainerAboutMe = styled.div`
 
     h3 {
         font-size: 1.3rem;
+        color: #0a0a0a;
     }   
 `
 
@@ -47,7 +48,6 @@ export const Description = styled.div`
         font-size: 2.2rem;
         margin-bottom: 40px;
         color: #0a0a0a;
-        background-color: #F27457;
         padding-inline: 20px;
         border-radius: 8px;
     }
