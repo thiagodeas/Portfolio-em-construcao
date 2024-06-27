@@ -27,6 +27,10 @@ export const ContainerAboutMe = styled.div`
     h3 {
         font-size: 1.3rem;
         color: #0a0a0a;
+    }
+    
+    @media only screen and (max-width: 1100px) {
+        flex-direction: column;
     }   
 `
 
