@@ -9,6 +9,9 @@ export const StyledHeader = styled.header `
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 10px;
     
     span {
         font-size: 1.7rem;
@@ -20,6 +23,12 @@ export const StyledHeader = styled.header `
             color: #F27457;
         }
     }
+`
+
+export const StyledNav = styled.nav `
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 `
 
 export const StyledLink = styled(NavLink) `

@@ -86,7 +86,10 @@ const levitating = keyframes`
 
 export const ContainerIcons = styled.div `
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
 `
 
 export const StyledReactIcon = styled(FaReact)`

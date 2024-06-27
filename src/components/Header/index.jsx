@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 // css
-import { StyledHeader, StyledLink } from "./Header.style";
+import { StyledHeader, StyledLink, StyledNav } from "./Header.style";
 
 const Header = () => {
     return (
@@ -13,7 +13,7 @@ const Header = () => {
                 <span>Thiago Sousa</span>
             </Link>
             {/* container pai dos links do cabeçalho*/}
-            <nav>
+            <StyledNav>
                 {/* link estilizado que redireciona para a página Home */}
                 <StyledLink to="/">Início</StyledLink>
                 {/* link estilizado que redireciona para a página About */}
@@ -22,7 +22,7 @@ const Header = () => {
                 <StyledLink to="/projects">Projetos</StyledLink>
                 {/* link estilizado que redireciona para a página Contact */}
                 <StyledLink to="/contact">Contato</StyledLink>
-            </nav>
+            </StyledNav>
         </StyledHeader>
     )
 }

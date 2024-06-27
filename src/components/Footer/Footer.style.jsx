@@ -9,4 +9,7 @@ export const StyledFooter = styled.footer `
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    padding-left: 12px;
+    padding-right: 12px;
 `
