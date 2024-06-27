@@ -27,6 +27,10 @@ export const ContainerAboutMe = styled.div`
     h3 {
         font-size: 1.3rem;
         color: #0a0a0a;
+    }
+    
+    @media only screen and (max-width: 1100px) {
+        flex-direction: column;
     }   
 `
 
@@ -36,13 +40,15 @@ export const Description = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 600px;
-    height: 400px;
+    max-width: 600px;
+    min-height: 400px;
     border: solid 1px #253659;
     border-radius: 8px;
     padding-inline: 25px;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    margin-left: 12px;
+    margin-right: 12px;
 
     h2 {
         font-size: 2.2rem;
